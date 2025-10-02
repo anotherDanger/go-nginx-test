@@ -1,0 +1,9 @@
+replicaCount: 1
+
+image:
+  repository: anotherdanger/go-nginx-test
+  tag: "1.0"
+
+servicePort: 80
+
+ingressHost: goapp.local
