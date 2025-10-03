@@ -8,10 +8,10 @@ metadata:
 spec:
   ingressClassName: nginx
   rules:
-  - host: {{.Values.ingressHost}}
+  - host: ""
     http:
       paths:
-      - path: ""
+      - path: /hello
         pathType: Prefix
         backend:
           service:
