@@ -8,3 +8,4 @@ spec:
   ports:
   - port: {{.Values.servicePort}}
     targetPort:  8080
+  type: {{.Values.serviceType}}
