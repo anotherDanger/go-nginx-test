@@ -6,6 +6,6 @@ image:
 
 servicePort: 80
 
-serviceType: LoadBalancer
+serviceType: ClusterIP
 
 ingressHost: goapp.local
