@@ -1,0 +1,14 @@
+apiVersion: v1
+entries:
+  nginx-test-chart:
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2025-10-03T07:01:10.903034121+07:00"
+    description: A Helm chart for Kubernetes
+    digest: 58e5b49be3382547c8ff05b910f707380a8ae5f8c2b7fe03894fdc0d07e80dc9
+    name: nginx-test-chart
+    type: application
+    urls:
+    - https://github.com/anotherDanger/go-nginx-test.git/nginx-test-chart-0.1.0.tgz
+    version: 0.1.0
+generated: "2025-10-03T07:01:10.902782828+07:00"
